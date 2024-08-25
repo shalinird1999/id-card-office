@@ -1,0 +1,58 @@
+#container {
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    margin:20px auto;
+
+}
+
+#section-1 {
+    background-color: lightblue;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+#id-logo {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+#heading-1{
+    /* margin-top: 100px; */
+    
+}
+
+#section-2 {
+    height: 300px;
+    background-color: black;  
+    padding: 40px;
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.label {
+    color: lightgray;
+    width: 50%;
+    
+}
+
+.value {
+    color: white;
+    width: 50%;
+}
+
